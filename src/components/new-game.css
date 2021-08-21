@@ -1,0 +1,18 @@
+.new-game-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 90vh;
+}
+
+.new-game-container div {
+  width: 30%;
+  height: 10%;
+  margin: 10px 0;
+}
+
+.new-game-container div input {
+  border-radius: 15px !important;
+}
